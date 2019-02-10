@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.chkpoint.jaytest1.Inventory_Test_UnknownInvalid">
+        <methods>
+          <include name="setupBeforeClass"/>
+          <include name="setupBefore"/>
+          <include name="Test02ReceiveRetireThenPutawayAtSameLocation"/>
+        </methods>
+      </class> <!-- com.chkpoint.jaytest1.Inventory_Test_UnknownInvalid -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

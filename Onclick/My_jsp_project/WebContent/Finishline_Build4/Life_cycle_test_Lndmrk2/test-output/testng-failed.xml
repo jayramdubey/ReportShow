@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Report Suite]">
+  <listeners>
+    <listener class-name="util.InvokedMethodListener"/>
+  </listeners>
+  <test name="Report Test(failed)">
+    <classes>
+      <class name="com.chkpoint.jaytest1.Inventory_Test_UnknownValid">
+        <methods>
+          <include name="Test03ReceiveRetireThenReturnAtSameLocation"/>
+          <include name="Test01ReceiveRetireThenCycleCountAtSameLocation"/>
+          <include name="Test04ReceiveRetireThenRetireAtSameLocation"/>
+          <include name="Test02ReceiveRetireThenPutawayAtSameLocation"/>
+        </methods>
+      </class> <!-- com.chkpoint.jaytest1.Inventory_Test_UnknownValid -->
+      <class name="com.chkpoint.jaytest1.Inventory_Test_UnknownInvalid">
+        <methods>
+          <include name="Test04ReceiveRetireThenRetireAtSameLocation"/>
+          <include name="Test02ReceiveRetireThenPutawayAtSameLocation"/>
+          <include name="Test01ReceiveRetireThenCycleCountAtSameLocation"/>
+          <include name="Test03ReceiveRetireThenReturnAtSameLocation"/>
+        </methods>
+      </class> <!-- com.chkpoint.jaytest1.Inventory_Test_UnknownInvalid -->
+      <class name="com.chkpoint.jaytest1.Inventory_Test">
+        <methods>
+          <include name="Test03ReceiveRetireThenReturnAtSameLocation"/>
+          <include name="Test01ReceiveRetireThenCycleCountAtSameLocation"/>
+          <include name="Test04ReceiveRetireThenRetireAtSameLocation"/>
+          <include name="Test02ReceiveRetireThenPutawayAtSameLocation"/>
+        </methods>
+      </class> <!-- com.chkpoint.jaytest1.Inventory_Test -->
+    </classes>
+  </test> <!-- Report Test(failed) -->
+</suite> <!-- Failed suite [Report Suite] -->

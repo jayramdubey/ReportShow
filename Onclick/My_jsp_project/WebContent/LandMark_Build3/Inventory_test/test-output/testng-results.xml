@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Report Suite" duration-ms="591813" started-at="2018-10-31T04:36:58Z" finished-at="2018-10-31T04:46:50Z">
+    <groups>
+    </groups>
+    <test name="Report Test" duration-ms="591813" started-at="2018-10-31T04:36:58Z" finished-at="2018-10-31T04:46:50Z">
+      <class name="com.chkpoint.jaytest1.Inventory_Test_UnknownInvalid">
+        <test-method status="PASS" signature="setupBeforeClass()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownInvalid@d4342c2]" name="setupBeforeClass" is-config="true" duration-ms="9635" started-at="2018-10-31T10:13:39Z" finished-at="2018-10-31T10:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeClass -->
+        <test-method status="PASS" signature="setupBefore()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownInvalid@d4342c2]" name="setupBefore" is-config="true" duration-ms="9322" started-at="2018-10-31T10:13:48Z" finished-at="2018-10-31T10:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBefore -->
+        <test-method status="PASS" signature="Test01ReceiveRetireThenCycleCountAtSameLocation()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownInvalid@d4342c2]" name="Test01ReceiveRetireThenCycleCountAtSameLocation" duration-ms="34899" started-at="2018-10-31T10:13:58Z" finished-at="2018-10-31T10:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01ReceiveRetireThenCycleCountAtSameLocation -->
+        <test-method status="PASS" signature="setupBefore()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownInvalid@d4342c2]" name="setupBefore" is-config="true" duration-ms="9601" started-at="2018-10-31T10:14:33Z" finished-at="2018-10-31T10:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBefore -->
+        <test-method status="PASS" signature="Test02ReceiveRetireThenPutawayAtSameLocation()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownInvalid@d4342c2]" name="Test02ReceiveRetireThenPutawayAtSameLocation" duration-ms="34074" started-at="2018-10-31T10:14:42Z" finished-at="2018-10-31T10:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02ReceiveRetireThenPutawayAtSameLocation -->
+        <test-method status="PASS" signature="setupBefore()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownInvalid@d4342c2]" name="setupBefore" is-config="true" duration-ms="9303" started-at="2018-10-31T10:15:16Z" finished-at="2018-10-31T10:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBefore -->
+        <test-method status="PASS" signature="Test03ReceiveRetireThenReturnAtSameLocation()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownInvalid@d4342c2]" name="Test03ReceiveRetireThenReturnAtSameLocation" duration-ms="35265" started-at="2018-10-31T10:15:26Z" finished-at="2018-10-31T10:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test03ReceiveRetireThenReturnAtSameLocation -->
+        <test-method status="PASS" signature="setupBefore()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownInvalid@d4342c2]" name="setupBefore" is-config="true" duration-ms="9664" started-at="2018-10-31T10:16:01Z" finished-at="2018-10-31T10:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBefore -->
+        <test-method status="PASS" signature="Test04ReceiveRetireThenRetireAtSameLocation()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownInvalid@d4342c2]" name="Test04ReceiveRetireThenRetireAtSameLocation" duration-ms="39052" started-at="2018-10-31T10:16:11Z" finished-at="2018-10-31T10:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test04ReceiveRetireThenRetireAtSameLocation -->
+      </class> <!-- com.chkpoint.jaytest1.Inventory_Test_UnknownInvalid -->
+      <class name="com.chkpoint.jaytest1.Inventory_Test_UnknownValid">
+        <test-method status="PASS" signature="setupBeforeClass()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownValid@4e91d63f]" name="setupBeforeClass" is-config="true" duration-ms="9906" started-at="2018-10-31T10:10:27Z" finished-at="2018-10-31T10:10:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeClass -->
+        <test-method status="PASS" signature="setupBefore()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownValid@4e91d63f]" name="setupBefore" is-config="true" duration-ms="9588" started-at="2018-10-31T10:10:37Z" finished-at="2018-10-31T10:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBefore -->
+        <test-method status="PASS" signature="Test01ReceiveRetireThenCycleCountAtSameLocation()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownValid@4e91d63f]" name="Test01ReceiveRetireThenCycleCountAtSameLocation" duration-ms="34936" started-at="2018-10-31T10:10:47Z" finished-at="2018-10-31T10:11:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01ReceiveRetireThenCycleCountAtSameLocation -->
+        <test-method status="PASS" signature="setupBefore()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownValid@4e91d63f]" name="setupBefore" is-config="true" duration-ms="9165" started-at="2018-10-31T10:11:22Z" finished-at="2018-10-31T10:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBefore -->
+        <test-method status="PASS" signature="Test02ReceiveRetireThenPutawayAtSameLocation()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownValid@4e91d63f]" name="Test02ReceiveRetireThenPutawayAtSameLocation" duration-ms="34434" started-at="2018-10-31T10:11:31Z" finished-at="2018-10-31T10:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02ReceiveRetireThenPutawayAtSameLocation -->
+        <test-method status="PASS" signature="setupBefore()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownValid@4e91d63f]" name="setupBefore" is-config="true" duration-ms="9628" started-at="2018-10-31T10:12:06Z" finished-at="2018-10-31T10:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBefore -->
+        <test-method status="PASS" signature="Test03ReceiveRetireThenReturnAtSameLocation()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownValid@4e91d63f]" name="Test03ReceiveRetireThenReturnAtSameLocation" duration-ms="35288" started-at="2018-10-31T10:12:15Z" finished-at="2018-10-31T10:12:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test03ReceiveRetireThenReturnAtSameLocation -->
+        <test-method status="PASS" signature="setupBefore()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownValid@4e91d63f]" name="setupBefore" is-config="true" duration-ms="9317" started-at="2018-10-31T10:12:51Z" finished-at="2018-10-31T10:13:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBefore -->
+        <test-method status="PASS" signature="Test04ReceiveRetireThenRetireAtSameLocation()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test_UnknownValid@4e91d63f]" name="Test04ReceiveRetireThenRetireAtSameLocation" duration-ms="38290" started-at="2018-10-31T10:13:00Z" finished-at="2018-10-31T10:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test04ReceiveRetireThenRetireAtSameLocation -->
+      </class> <!-- com.chkpoint.jaytest1.Inventory_Test_UnknownValid -->
+      <class name="com.chkpoint.jaytest1.Inventory_Test">
+        <test-method status="PASS" signature="setupBeforeClass()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test@56a6d5a6]" name="setupBeforeClass" is-config="true" duration-ms="14684" started-at="2018-10-31T10:06:58Z" finished-at="2018-10-31T10:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeClass -->
+        <test-method status="PASS" signature="setupBefore()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test@56a6d5a6]" name="setupBefore" is-config="true" duration-ms="9374" started-at="2018-10-31T10:07:13Z" finished-at="2018-10-31T10:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBefore -->
+        <test-method status="PASS" signature="Test01ReceiveRetireThenCycleCountAtSameLocation()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test@56a6d5a6]" name="Test01ReceiveRetireThenCycleCountAtSameLocation" duration-ms="43688" started-at="2018-10-31T10:07:22Z" finished-at="2018-10-31T10:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01ReceiveRetireThenCycleCountAtSameLocation -->
+        <test-method status="PASS" signature="setupBefore()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test@56a6d5a6]" name="setupBefore" is-config="true" duration-ms="9473" started-at="2018-10-31T10:08:06Z" finished-at="2018-10-31T10:08:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBefore -->
+        <test-method status="PASS" signature="Test02ReceiveRetireThenPutawayAtSameLocation()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test@56a6d5a6]" name="Test02ReceiveRetireThenPutawayAtSameLocation" duration-ms="37628" started-at="2018-10-31T10:08:16Z" finished-at="2018-10-31T10:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02ReceiveRetireThenPutawayAtSameLocation -->
+        <test-method status="PASS" signature="setupBefore()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test@56a6d5a6]" name="setupBefore" is-config="true" duration-ms="9345" started-at="2018-10-31T10:08:53Z" finished-at="2018-10-31T10:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBefore -->
+        <test-method status="PASS" signature="Test03ReceiveRetireThenReturnAtSameLocation()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test@56a6d5a6]" name="Test03ReceiveRetireThenReturnAtSameLocation" duration-ms="36850" started-at="2018-10-31T10:09:03Z" finished-at="2018-10-31T10:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test03ReceiveRetireThenReturnAtSameLocation -->
+        <test-method status="PASS" signature="setupBefore()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test@56a6d5a6]" name="setupBefore" is-config="true" duration-ms="9209" started-at="2018-10-31T10:09:40Z" finished-at="2018-10-31T10:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBefore -->
+        <test-method status="PASS" signature="Test04ReceiveRetireThenRetireAtSameLocation()[pri:0, instance:com.chkpoint.jaytest1.Inventory_Test@56a6d5a6]" name="Test04ReceiveRetireThenRetireAtSameLocation" duration-ms="38413" started-at="2018-10-31T10:09:49Z" finished-at="2018-10-31T10:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test04ReceiveRetireThenRetireAtSameLocation -->
+      </class> <!-- com.chkpoint.jaytest1.Inventory_Test -->
+    </test> <!-- Report Test -->
+  </suite> <!-- Report Suite -->
+</testng-results>
